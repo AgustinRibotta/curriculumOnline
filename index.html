@@ -3,105 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Agustin Ribotta</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="">Yo</a></li>
-                <li><a href="">Estudios</a></li>
-                <li><a href="">Experiencia</a></li>
-            </ul>
-        </nav>
-        <p>Descargar CV</p>
+        <button>Descargar CV</button>
     </header>
-    <main>
-        <!-- Header  -->
-        <img src="./asssets/images/profile.jpeg" height="200px" alt="Profile picture">
-        <h1>Agustin Ribotta</h1>
-        <h2>Web developer</h2>
-
-        <hr>
-
-        <!-- Summary -->
-        <h3>Perfil profesional</h3>
-        <p>Profesional con experiencia en mantenimiento de sitios de comunicación críticos y en la creación de planos eléctricos para sistemas de protección y comando de transformadores. Destrezas en la supervisión de equipos, toma de datos PtP, control y mantenimiento de tableros eléctricos, además de experiencia como Jefe de Obra. Certificaciones en técnicas de servicio y programación Python. Actualmente, estoy dedicando tiempo a mi formación como estudiante de programación backend - frontend.</p>
-        
-        <hr>
-
-        <!-- Experience -->
-        <h3> Experiencia</h3>
-        <ul>
-            <li><h5>01/2024 - Actualidad</h5></li>
-                <ul>
-                    <li><h4>MGM</h4></li>
-                    <li><h5>Electricista</h5></li>
-                    <li><h6>Sinalunga - Siena - Italia</h6></li>
-                    <li><p>Instalación y mantenimiento de sistemas eléctricos residenciales e industriales, así como en la implementación de sistemas de seguridad como cámaras de vigilancia, sistemas contra incendios y alarmas.</p></li>
-                    
+    <main>'
+        <div class="profile">
+            <!-- Header  -->
+            <img src="./asssets/images/profile.jpeg" alt="Profile picture">
+            <h1>Agustin Ribotta</h1>
+            <h2>Web developer</h2>
+            <hr>
+            <!-- Summary -->
+            <h3>Perfil profesional</h3>
+            <p>Profesional con experiencia en mantenimiento de sitios de comunicación críticos y en la creación de planos eléctricos para sistemas de protección y comando de transformadores. Destrezas en la supervisión de equipos, toma de datos PtP, control y mantenimiento de tableros eléctricos, además de experiencia como Jefe de Obra. Certificaciones en técnicas de servicio y programación Python. Actualmente, estoy dedicando tiempo a mi formación como estudiante de programación backend - frontend.</p>
+        </div>
+        <div class="all-information">
+            <div class="socials">
+                <!-- Personal Information -->
+                <h3>Social</h3>
+                    <ul>
+                        <li>Lucignao - Arezzo - Italia</li>
+                        <li>Ciudadano Argentino</li>
+                        <li>Ciudadano Italiano</li>
+                        <li><a target="_blank" href="mailto:agustin.ribotta.r@gmail.com">agustin.ribotta.r@gmail.com</a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/in/agustin-ribotta/">Linkedin: agustin-ribotta</a></li>
+                        <li><a target="_blank" href="https://github.com/AgustinRibotta">GitHub: AgustinRibotta</a></li>
+                    </ul>
+                
+                <hr>
+                <!--  Certifucations -->
+                <h3>Certificaciones y Cursos </h3>
+                <ul> 
+                    <li>PCEP – Certified Entry-Level Python Programmer</li>
+                    <li>Django y Django rest framework</li>
                 </ul>
-            <li><h5>06/2022 - 12/2022</h5></li>
-                <ul>    
-                    <li><h4>MSCA SRL.</h4></li>
-                    <li><h5>Técnico de mantenimiento</h5></li>
-                    <li><h6>Provincia de Buenos Aires, Argentina</h6></li>
-                    <li><p>Mantenimiento de sitios de comunicación críticos. Esto incluyó la supervisión de equipos como UPS, generadores, rectificadores y repetidores, además de la toma de datos PtP. También tuve responsabilidades en el control y mantenimiento de tableros eléctricos y la conducción de vehículos para entregas y desplazamientos seguros.</p></li>
+                <hr>
+                <!--  Certifucations -->
+                <h3>Stack </h3>
+                <ul> 
+                    <li>Python</li>
+                    <li>Django</li>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
                 </ul>
-            <li><h5>2019-2022</h5></li>
+            </div>
+            <div class="information">
+                <!-- Experience -->
+                <h3> Experiencia</h3>
                 <ul>
-                    <li><h4>Tadeo Czerweny S.A</h4></li>
-                    <li><h5>Técnico ( Servicios ) </h5></li>
-                    <li><h6>Gálvez, Santa Fe, Argentina</h6></li>
-                    <li><p>Desempeñé el rol de Jefe de Obra, liderando proyectos de transformadores. Mi trabajo incluyó la generación de informes, el armado de transformadores, mediciones, cableado de protecciones, reparaciones y mantenimientos. Además, conduje vehículos para desplazarme a las áreas de trabajo.</p></li>
+                    <li><h5>01/2024 - Actualidad</h5></li>
+                        <ul class="work">
+                            <li><h4>MGM</h4></li>
+                            <li><h5>Electricista</h5></li>
+                            <li><h6>Sinalunga - Siena - Italia</h6></li>
+                            <li><p>Instalación y mantenimiento de sistemas eléctricos residenciales e industriales, así como en la implementación de sistemas de seguridad como cámaras de vigilancia, sistemas contra incendios y alarmas.</p></li>
+                            
+                        </ul>
+                    <li><h5>06/2022 - 12/2022</h5></li>
+                        <ul class="work">    
+                            <li><h4>MSCA SRL.</h4></li>
+                            <li><h5>Técnico de mantenimiento</h5></li>
+                            <li><h6>Provincia de Buenos Aires, Argentina</h6></li>
+                            <li><p>Mantenimiento de sitios de comunicación críticos. Esto incluyó la supervisión de equipos como UPS, generadores, rectificadores y repetidores, además de la toma de datos PtP. También tuve responsabilidades en el control y mantenimiento de tableros eléctricos y la conducción de vehículos para entregas y desplazamientos seguros.</p></li>
+                        </ul>
+                    <li><h5>2019-2022</h5></li>
+                        <ul class="work">
+                            <li><h4>Tadeo Czerweny S.A</h4></li>
+                            <li><h5>Técnico ( Servicios ) </h5></li>
+                            <li><h6>Gálvez, Santa Fe, Argentina</h6></li>
+                            <li><p>Desempeñé el rol de Jefe de Obra, liderando proyectos de transformadores. Mi trabajo incluyó la generación de informes, el armado de transformadores, mediciones, cableado de protecciones, reparaciones y mantenimientos. Además, conduje vehículos para desplazarme a las áreas de trabajo.</p></li>
+                        </ul>
+                    <li><h5>2018-2019</h5></li>
+                        <ul class="work">
+                            <li><h4>Tadeo Czerweny S.A</h4></li>
+                            <li><h5>Técnico ( Ingeniería )</h5></li>
+                            <li><h6>Gálvez, Santa Fe, Argentina</h6></li>
+                            <li><p>Mi función principal implicó la creación de planos eléctricos con AutoCAD Electrical para sistemas de protección y comando de transformadores. Además, brindé asistencia en el montaje y ensayo de tableros, definí accesorios necesarios y proporcioné soporte técnico al cliente.</p></li>
+                        </ul>    
                 </ul>
-            <li><h5>2018-2019</h5></li>
-                <ul>
-                    <li><h4>Tadeo Czerweny S.A</h4></li>
-                    <li><h5>Técnico ( Ingeniería )</h5></li>
-                    <li><h6>Gálvez, Santa Fe, Argentina</h6></li>
-                    <li><p>Mi función principal implicó la creación de planos eléctricos con AutoCAD Electrical para sistemas de protección y comando de transformadores. Además, brindé asistencia en el montaje y ensayo de tableros, definí accesorios necesarios y proporcioné soporte técnico al cliente.</p></li>
-                </ul>    
-        </ul>
-        
-        <hr>
+                
+                <hr>
 
-        <!-- Education -->
-        <h3> Educacion</h3>
-        <ul>
-            <li><h5>2010-2016</h5></li>
-                <ul>
-                    <li><h4>Escuela de Educación Técnica Profesional N° 456</h4></li>
-                    <li><h5>Técnico Mecánico</h5></li>
-                    <li><h6> Galvez - Santa Fe - Argentina</h6></li>                    
+                <!-- Education -->
+                <h3> Educacion</h3>
+                <ul class="study">
+                    <li><h5>2010-2016</h5></li>
+                        <ul class="stady-info">
+                            <li><h4>Escuela de Educación Técnica Profesional N° 456</h4></li>
+                            <li><h5>Técnico Mecánico</h5></li>
+                            <li><h6> Galvez - Santa Fe - Argentina</h6></li>                    
+                        </ul>
                 </ul>
-        </ul>
 
-        <hr>
-        
-        <!-- Personal Information -->
-        <h3>Social</h3>
-            <ul>
-                <li>Lucignao - Arezzo - Italia</li>
-                <li>Ciudadano Argentino</li>
-                <li>Ciudadano Italiano</li>
-                <li><a target="_blank" href="mailto:agustin.ribotta.r@gmail.com">agustin.ribotta.r@gmail.com</a></li>
-                <li><a target="_blank" href="https://www.linkedin.com/in/agustin-ribotta/">Linkedin: agustin-ribotta</a></li>
-                <li><a target="_blank" href="https://github.com/AgustinRibotta">GitHub: AgustinRibotta</a></li>
-            </ul>
-        
-        <hr>
-
-        <!--  Certifucations -->
-        <h3>Certificaciones </h3>
-        <ul> 
-            <li>PCEP – Certified Entry-Level Python Programmer</li>
-            <li>Django y Django rest framework</li>
-        </ul>
+            </div>
+        </div>
     </main>
     <footer>
         <p>© Agustin Ribotta. Reservados todos los derechos.</p>
-        <p>Descargar CV</p>
+        <button>Descargar CV</button>
     </footer>
 </body>
 </html>
